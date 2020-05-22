@@ -58,7 +58,7 @@
                               "darkgoldenrod2", "grey"))))
     ##legend
       legend("bottomright", c("setosa","virginica", "versicolor"),
-          col = c("coral1","cyan4", "darkgoldenrod2"), pch=17
+          col = c("coral1","cyan4", "darkgoldenrod2"), pch=17)
 
 
 ## Graph #4 
