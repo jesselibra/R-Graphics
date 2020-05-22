@@ -1,5 +1,5 @@
 
-## Graph 1
+## Graph 1, simple xy scatterplot
     plot (iris$Petal.Length,iris$Petal.Width)
 
 ## Graph 2
@@ -25,7 +25,7 @@
       par(mfrow = c(1,2), mar = c(5,5,4,1),font = 7,font.axis = 7, 
           fg = "azure4",  col.axis = "azure4", cex.axis = .75)
 
-    ## First plot
+    ## First plot: petal length vs width
     plot(iris$Petal.Length, iris$Petal.Width, 
         xlab = "Petal Length", 
         ylab = "Petal Width", 
@@ -42,7 +42,8 @@
     ##legend
       legend("bottomright", c("setosa","virginica", "versicolor"),
        col = c("coral1","cyan4", "darkgoldenrod2"), pch=20)
-    ##Second plot
+  
+    ##Second plot: Sepal length vs width
     plot(iris$Sepal.Length, iris$Sepal.Width, 
         xlab = "Sepal Length",
         ylab = "Sepal Width",
