@@ -8,7 +8,7 @@
     plot(iris$Petal.Length, iris$Petal.Width, 
       xlab = "Petal Length",
       ylab = "Petal Width",
-      main = "Petal length vs. Petal Width",
+      main = "Petal Width vs Petal Length",
       pch = 20,
       col=ifelse(iris$Species == "setosa","coral1", 
                 ifelse(iris$Species == "virginica","cyan4", 
@@ -31,7 +31,7 @@
         ylab = "Petal Width", 
         font.lab = 7,
         col.lab = "azure4",
-        main = "Petal length vs. Petal Width",
+        main = "Petal Width vs Petal Length",
         font.main = 7,
         col.main = "black",
         pch = 20,
@@ -43,13 +43,13 @@
       legend("bottomright", c("setosa","virginica", "versicolor"),
        col = c("coral1","cyan4", "darkgoldenrod2"), pch=20)
   
-    ##Second plot: Sepal length vs width
+    ##Second plot: Sepal width vs length
     plot(iris$Sepal.Length, iris$Sepal.Width, 
         xlab = "Sepal Length",
         ylab = "Sepal Width",
         font.lab = 7,
         col.lab = "azure4",
-        main = "Sepal length vs. Sepal Width",
+        main = "Sepal Width vs Sepal Length",
         font.main=7,
         col.main = "black",
         pch = 17,
@@ -73,7 +73,7 @@
       xlab = "Petal Length", 
       ylab = "Petal Width", 
       font.lab = 7,
-      main = "Petal length vs. Petal Width",
+      main = "Petal Width vs Petal Length",
       font.main = 7,
       col.main = "black",)
  
